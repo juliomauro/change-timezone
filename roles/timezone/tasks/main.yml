@@ -1,0 +1,8 @@
+---
+# tasks file for server
+- name: Copy bashrc file 
+  copy:
+    src: Sao_Paulo
+    dest: /usr/share/zoneinfo/America/
+    owner: root
+    group: root
